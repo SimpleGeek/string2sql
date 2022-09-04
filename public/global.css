@@ -1,0 +1,48 @@
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	width: 100%;
+	flex-direction: column;
+}
+
+h2, textarea, button {
+	color: rgb(40, 40, 40);
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+}
+
+textarea {
+	height: 350px;
+	width: 600px;
+	resize: none;
+	outline: none;
+	border: 0px;
+	border-radius: 5px;
+	background-color: rgba(236, 231, 231, 0.795);
+}
+
+button {
+	border: 0px;
+	background-color: rgba(146, 236, 146, 0.986);
+	width: 600px;
+	font-size: 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.warning {
+	background-color: rgb(236, 106, 106);
+}
+
+.warning:hover {
+	background-color: rgb(245, 55, 55);
+}
+
+button:hover {
+	background-color: rgb(91, 224, 91);
+}
